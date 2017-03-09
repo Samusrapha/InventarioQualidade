@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_slideshow" android:icon="@android:drawable/ic_input_get"
+            android:title="Nota" />
+        <item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Ferramentas" />
+
+    </group>
+
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item android:id="@+id/nav_gallery" android:icon="@android:drawable/ic_menu_upload"
+            android:title="Export" />
+
+            <item android:id="@+id/bt_import" android:icon="@android:drawable/ic_menu_set_as"
+                android:title="Import" />
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+            <item android:id="@+id/nav_demo" android:icon="@android:drawable/star_big_off"
+                android:title="Dados Demonstração!" />
+
+        </menu>
+    </item>
+
+</menu>
