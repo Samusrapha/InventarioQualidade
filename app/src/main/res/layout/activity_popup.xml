@@ -6,4 +6,32 @@
     android:layout_height="match_parent"
     tools:context="br.com.greenowl.inventarioqualidadeflorestal.Popup">
 
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+\nPrimeira versão piloto de Coleta de informações de qualidade florestal para florestas plantadas.\n
+\n
+Melhorias e novas ferramentas virão em breve...\n
+\n
+\n
+A função do aplicativo é coletar em campo informações qualitativas dos talhões das fazendas e calcular uma nota qualidade da floresta.\n
+\n
+INSTRUÇÕES DE USO\n
+\n
+1.Baixar dados demonstração ao clicar no botão na barra lateral.\n
+\n
+2.Como exportar os dados coletados?\n
+    Clicar no botão 'export' na barra lateral.\n
+    Essa opção cria um arquivo xml talhoesexp.xml que pode ser aberto em Excel.\n
+\n
+3.Como iserir novos dados?\n
+    Criar arquivo chamado talhoes.xml e salva-lo na raiz do dispositivo móvel. Esse arquivo deve conter as mesmas colunas do arquivo 'talhoesexp.xml'.\n
+\n
+\n
+\n
+Duvidas, sugestões, criticas: raphael.greenowl@gmail.com"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 </android.support.constraint.ConstraintLayout>
